@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Antario\DLLMain.cpp" />
+    <ClCompile Include="Antario\Features\Backtrack.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Features\BulletTracer.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Features\ColoredModels.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Features\GrenadeRange.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Features\HitMarker.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Features\EnginePrediction.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Features\Visualizations.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Features\VisualizeSounds.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Features\Logs.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Features\ThirdPerson.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Features\NightMode.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\GUI\Alpha.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\GUI\GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\GUI\Menu.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Hooks\Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Utils\D3DFont.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Utils\DrawManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Utils\GlobalVars.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Utils\Interfaces.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Utils\Mathematic.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Utils\NetvarManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\Utils\Vector4D.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Antario\SDK\SpoofedConVar.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Antario\Features\Backtrack.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\BulletTracer.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\ColoredModels.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\GrenadeRange.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\HitMarker.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\EnginePrediction.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\Visualizations.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\VisualizeSounds.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\Logs.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\Glow.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\ThirdPerson.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\EventListener.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\NightMode.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Features\Miscellaneous.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\GUI\Alpha.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\GUI\GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\GUI\Keybind.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Hooks\Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Settings\Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\Color.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\D3DFont.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\DrawManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\GlobalVars.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\Images.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\Interfaces.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\Mathematic.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\NetvarManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\Vector4D.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\SRect.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\SPoint.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\CClientState.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\CDebugOverlay.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\CEntity.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\CGlobalVarsBase.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\CHandle.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\CInput.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\ClientClass.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\CPrediction.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\Cvar.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\Definitions.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IAppSystem.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IBaseClientDll.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IClientEntity.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IClientEntityList.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IClientMode.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IClientNetworkable.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IClientRenderable.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IClientThinkable.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IClientUnknown.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IEngineSound.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IEngineTrace.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IGameEvent.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IMaterialSystem.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IPanel.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IRenderView.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\ISurface.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IVEngineClient.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IViewRenderBeams.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IVModelInfoClient.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IVModelRender.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\IWeaponSystem.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\KeyValues.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\Platform.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\PlayerInfo.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\Recv.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\Singleton.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\SpoofedConVar.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\Studio.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\UtlMemory.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\UtlVector.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\Vector.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Antario\SDK\VMatrix.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Features">
+      <UniqueIdentifier>{603e7b65-31ec-43b2-a54c-5f47a1799511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{d3952e12-dbb4-4283-a8f5-6d7ea93e59df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{59fe8fde-0a51-45a9-9b30-b60738467ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{5117ddd8-40d1-43a9-ad1d-7714981c7c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{a6e2c4fa-2bbb-49ae-ad4c-137de2d1aaaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{f1c1b5b2-e0a3-4309-bd36-74ee45794564}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

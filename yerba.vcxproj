@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1B8103F7-F793-47B0-9FBE-44EC66BC319D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Antario</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>yerba</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);$(ExecutablePath);$(DXSDK_DIR)Utilities\bin\x86</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);$(ExecutablePath);$(DXSDK_DIR)Utilities\bin\x86</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;ANTARIO_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;ANTARIO_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Antario\Features\Backtrack.cpp" />
+    <ClCompile Include="Antario\Features\ColoredModels.cpp" />
+    <ClCompile Include="Antario\Features\HitMarker.cpp" />
+    <ClCompile Include="Antario\Features\NightMode.cpp" />
+    <ClCompile Include="Antario\Features\ThirdPerson.cpp" />
+    <ClCompile Include="Antario\Features\Visualizations.cpp" />
+    <ClCompile Include="Antario\Features\VisualizeSounds.cpp" />
+    <ClCompile Include="Antario\GUI\Alpha.cpp" />
+    <ClCompile Include="Antario\GUI\Menu.cpp" />
+    <ClCompile Include="Antario\Hooks\Hooks.cpp" />
+    <ClCompile Include="Antario\Features\BulletTracer.cpp" />
+    <ClCompile Include="Antario\Features\EnginePrediction.cpp" />
+    <ClCompile Include="Antario\Features\GrenadeRange.cpp" />
+    <ClCompile Include="Antario\Features\Logs.cpp" />
+    <ClCompile Include="Antario\GUI\GUI.cpp" />
+    <ClCompile Include="Antario\DLLMain.cpp" />
+    <ClCompile Include="Antario\SDK\SpoofedConVar.cpp" />
+    <ClCompile Include="Antario\Utils\D3DFont.cpp" />
+    <ClCompile Include="Antario\Utils\DrawManager.cpp" />
+    <ClCompile Include="Antario\Utils\GlobalVars.cpp" />
+    <ClCompile Include="Antario\Utils\Interfaces.cpp" />
+    <ClCompile Include="Antario\Utils\Mathematic.cpp" />
+    <ClCompile Include="Antario\Utils\NetvarManager.cpp" />
+    <ClCompile Include="Antario\Utils\Vector4D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Antario\Features\Backtrack.h" />
+    <ClInclude Include="Antario\Features\ColoredModels.h" />
+    <ClInclude Include="Antario\Features\EventListener.h" />
+    <ClInclude Include="Antario\Features\HitMarker.h" />
+    <ClInclude Include="Antario\Features\Miscellaneous.h" />
+    <ClInclude Include="Antario\Features\NightMode.h" />
+    <ClInclude Include="Antario\Features\ThirdPerson.h" />
+    <ClInclude Include="Antario\Features\Visualizations.h" />
+    <ClInclude Include="Antario\Features\VisualizeSounds.h" />
+    <ClInclude Include="Antario\GUI\Alpha.h" />
+    <ClInclude Include="Antario\Hooks\Hooks.h" />
+    <ClInclude Include="Antario\Features\BulletTracer.h" />
+    <ClInclude Include="Antario\Features\EnginePrediction.h" />
+    <ClInclude Include="Antario\Features\Glow.h" />
+    <ClInclude Include="Antario\Features\GrenadeRange.h" />
+    <ClInclude Include="Antario\Features\Logs.h" />
+    <ClInclude Include="Antario\GUI\GUI.h" />
+    <ClInclude Include="Antario\GUI\Keybind.h" />
+    <ClInclude Include="Antario\SDK\CClientState.h" />
+    <ClInclude Include="Antario\SDK\CDebugOverlay.h" />
+    <ClInclude Include="Antario\SDK\CGlobalVarsBase.h" />
+    <ClInclude Include="Antario\SDK\CHandle.h" />
+    <ClInclude Include="Antario\SDK\CEntity.h" />
+    <ClInclude Include="Antario\SDK\CInput.h" />
+    <ClInclude Include="Antario\SDK\ClientClass.h" />
+    <ClInclude Include="Antario\SDK\Cvar.h" />
+    <ClInclude Include="Antario\SDK\IAppSystem.h" />
+    <ClInclude Include="Antario\SDK\IEngineSound.h" />
+    <ClInclude Include="Antario\SDK\IEngineTrace.h" />
+    <ClInclude Include="Antario\SDK\IMaterialSystem.h" />
+    <ClInclude Include="Antario\SDK\IPanel.h" />
+    <ClInclude Include="Antario\SDK\IRenderView.h" />
+    <ClInclude Include="Antario\SDK\ISurface.h" />
+    <ClInclude Include="Antario\SDK\IViewRenderBeams.h" />
+    <ClInclude Include="Antario\SDK\IVModelInfoClient.h" />
+    <ClInclude Include="Antario\SDK\IVModelRender.h" />
+    <ClInclude Include="Antario\SDK\IWeaponSystem.h" />
+    <ClInclude Include="Antario\SDK\Platform.h" />
+    <ClInclude Include="Antario\SDK\Singleton.h" />
+    <ClInclude Include="Antario\SDK\SpoofedConVar.h" />
+    <ClInclude Include="Antario\SDK\Studio.h" />
+    <ClInclude Include="Antario\SDK\UtlMemory.h" />
+    <ClInclude Include="Antario\SDK\UtlVector.h" />
+    <ClInclude Include="Antario\Settings\Settings.h" />
+    <ClInclude Include="Antario\Utils\Color.h" />
+    <ClInclude Include="Antario\SDK\CPrediction.h" />
+    <ClInclude Include="Antario\SDK\Definitions.h" />
+    <ClInclude Include="Antario\SDK\IBaseClientDll.h" />
+    <ClInclude Include="Antario\SDK\IClientEntity.h" />
+    <ClInclude Include="Antario\SDK\IClientEntityList.h" />
+    <ClInclude Include="Antario\SDK\IClientMode.h" />
+    <ClInclude Include="Antario\SDK\IClientNetworkable.h" />
+    <ClInclude Include="Antario\SDK\IClientRenderable.h" />
+    <ClInclude Include="Antario\SDK\IClientThinkable.h" />
+    <ClInclude Include="Antario\SDK\IClientUnknown.h" />
+    <ClInclude Include="Antario\SDK\IGameEvent.h" />
+    <ClInclude Include="Antario\SDK\IVEngineClient.h" />
+    <ClInclude Include="Antario\SDK\KeyValues.h" />
+    <ClInclude Include="Antario\SDK\PlayerInfo.h" />
+    <ClInclude Include="Antario\Utils\D3DFont.h" />
+    <ClInclude Include="Antario\Utils\DrawManager.h" />
+    <ClInclude Include="Antario\Utils\GlobalVars.h" />
+    <ClInclude Include="Antario\Utils\Images.h" />
+    <ClInclude Include="Antario\Utils\Interfaces.h" />
+    <ClInclude Include="Antario\SDK\Recv.h" />
+    <ClInclude Include="Antario\SDK\Vector.h" />
+    <ClInclude Include="Antario\SDK\VMatrix.h" />
+    <ClInclude Include="Antario\Utils\Mathematic.h" />
+    <ClInclude Include="Antario\Utils\NetvarManager.h" />
+    <ClInclude Include="Antario\Utils\SPoint.h" />
+    <ClInclude Include="Antario\Utils\SRect.h" />
+    <ClInclude Include="Antario\Utils\Utils.h" />
+    <ClInclude Include="Antario\Utils\Vector4D.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
