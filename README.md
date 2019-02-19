@@ -2,7 +2,7 @@
 Based on Antario (https://github.com/Wando1423/Antario)
 
 ### Features:
-* D3D9 menu with automatically adjusted positions of the selectables
+*D3D9 menu with automatically adjusted positions of the selectables
 Netvar manager
 Easy to understand VMT hooking class
 Debug console output
