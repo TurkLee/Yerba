@@ -6,7 +6,7 @@ Based on Antario (https://github.com/Wando1423/Antario)
 * Netvar manager.
 * Easy to understand VMT hooking class.
 * Debug console output.
-* Basic Hooking/Unhooking concept.
+* Basic hooking and unhooking concept.
 
 ### Information:
 * You should install the fonts that are in the Antario folder.
