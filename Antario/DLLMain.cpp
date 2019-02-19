@@ -9,7 +9,7 @@ DWORD WINAPI OnDllAttach(PVOID base)
 	AllocConsole(); /* Alloc memory and create console */
 	freopen_s((FILE**)stdin, "CONIN$", "r", stdin);
 	freopen_s((FILE**)stdout, "CONOUT$", "w", stdout); /*  Make iostream library use our console handle */
-	SetConsoleTitleA(" yerba - debug console"); /* Set console name to a custom one */
+	SetConsoleTitleA("yerba - debug console"); /* Set console name to a custom one */
 #endif
 
 	Utils::Log("Console allocated!");
