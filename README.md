@@ -1,5 +1,4 @@
 ## yerba - Cheat for Counter-Strike: Global Offensive
-Based on Antario (https://github.com/Wando1423/Antario)
 
 ### Features:
 * D3D9 menu with automatically adjusted positions of the selectables.
@@ -10,6 +9,7 @@ Based on Antario (https://github.com/Wando1423/Antario)
 
 ### Information:
 * You should install the fonts that are in the Antario folder.
+* Based on Antario (https://github.com/Wando1423/Antario)
 
 ### Menu:
 ![alt text](https://i.imgur.com/dPCQvFG.png)
