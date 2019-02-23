@@ -1,4 +1,4 @@
-## yerba ![alt text](https://i.imgur.com/RHlmKYL.png) ![alt text](https://i.imgur.com/1OKJ96Z.png) ![alt text](https://i.imgur.com/RPz95ve.png) ![alt text](https://i.imgur.com/ZXcfFYJ.png)
+## Yerba ![alt text](https://i.imgur.com/RHlmKYL.png) ![alt text](https://i.imgur.com/1OKJ96Z.png) ![alt text](https://i.imgur.com/RPz95ve.png) ![alt text](https://i.imgur.com/ZXcfFYJ.png)
 Cheat for Counter-Strike: Global Offensive
 
 ### Features:
