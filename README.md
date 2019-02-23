@@ -1,5 +1,5 @@
 ## Yerba ![alt text](https://i.imgur.com/RHlmKYL.png) ![alt text](https://i.imgur.com/1OKJ96Z.png) ![alt text](https://i.imgur.com/RPz95ve.png) ![alt text](https://i.imgur.com/ZXcfFYJ.png)
-Cheat for Counter-Strike: Global Offensive
+Open-source cheat for Counter-Strike: Global Offensive game.
 
 ### Features:
 * D3D9 menu with automatically adjusted positions of the selectables.
@@ -16,3 +16,11 @@ Cheat for Counter-Strike: Global Offensive
 ![alt text](https://i.imgur.com/dPCQvFG.png)
 ![alt text](https://i.imgur.com/3lVaWR5.png)
 ![alt text](https://i.imgur.com/rIgGA5r.png)
+
+### FAQ
+
+How to inject?
+Open DLL injector and inject obnoxious.dll into csgo.exe process.
+
+How do I open menu?
+Press INSERT key while while focused on CS:GO window.
