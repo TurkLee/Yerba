@@ -1,4 +1,5 @@
-## yerba - Cheat for Counter-Strike: Global Offensive
+## yerba ![alt text](https://camo.githubusercontent.com/a19ae600be533aca70cb51c7012c58ab37393432/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c616e67756167652d432532422532422d2532336633346237642e737667)
+Cheat for Counter-Strike: Global Offensive
 
 ### Features:
 * D3D9 menu with automatically adjusted positions of the selectables.
