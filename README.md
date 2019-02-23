@@ -25,7 +25,7 @@ Microsoft Visual Studio 2017 15.9.4 and Windows SDK 10.0.17763.0 (10.0.17134.0 o
 ### Cloning
 The very first step in order to compile Osiris is to clone this repo from GitHub to your local computer:
 ```
-git clone https://github.com/danielkrupinski/Osiris.git
+git clone https://github.com/Lumm1t/Yerba.git
 ```
 
 ### Compiling from source
@@ -34,18 +34,10 @@ When you have equiped a copy of source code, next step is opening **Osiris.sln**
 
 Then change build configuration to `Release | x86` and simply press **Build solution**.
 
-If everything went right you should receive `Osiris.dll`  binary file.
+If everything went right you should receive `obnoxious.dll`  binary file.
 
 ### Loading / Injecting into game process
 
-Open your favorite [DLL injector](https://en.wikipedia.org/wiki/DLL_injection) and just inject `Osiris.dll` into `csgo.exe` process.
-
-When injected, menu is openable under `INSERT` key.
-
-## FAQ
-
-### How to inject?
 Open [DLL injector](https://en.wikipedia.org/wiki/DLL_injection) and inject `obnoxious.dll` into `csgo.exe` process.
 
-### How do I open menu?
 Press `INSERT` key while focused on CS:GO window.
