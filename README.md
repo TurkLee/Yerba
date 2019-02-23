@@ -40,4 +40,4 @@ If everything went right you should receive `yerba.dll`  binary file.
 
 Open [DLL injector](https://en.wikipedia.org/wiki/DLL_injection) and inject `yerba.dll` into `csgo.exe` process.
 
-Press `INSERT` key while focused on CS:GO window.
+Press `INSERT` key when injected and focused on CS:GO window.
