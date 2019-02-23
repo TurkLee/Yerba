@@ -20,7 +20,7 @@ Open-source cheat for Counter-Strike: Global Offensive game.
 ## FAQ
 
 ### How to inject?
-Open [DLL injector](https://en.wikipedia.org/wiki/DLL_injection) and inject obnoxious.dll into csgo.exe process.
+Open [DLL injector](https://en.wikipedia.org/wiki/DLL_injection) and inject `obnoxious.dll` into `csgo.exe` process.
 
 ### How do I open menu?
 Press `INSERT` key while while focused on CS:GO window.
