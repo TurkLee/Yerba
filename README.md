@@ -40,4 +40,4 @@ Press `INSERT` key when injected and focused on CS:GO window.
 
 ## Information:
 * You should install the fonts that are in the Antario folder.
-* Based on Antario (https://github.com/Wando1423/Antario).
+* Based on [Antario](https://github.com/Wando1423/Antario).
